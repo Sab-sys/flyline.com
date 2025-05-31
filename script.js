@@ -47,4 +47,4 @@ window.addEventListener("scroll", function () {
 const fieldinput = document.getElementbById('txt') ;
 const displayscr = document.getElementById('disp') ;
 
-function Calc(){ disp.innerHTML `Your estimated shipment cost will be between £${fieldinput.value * 6} and £${fieldinput.value * 7} if your shipment distance is close to ${fieldinput.value}miles`};
+function Calc(){ displayscr.innerHTML = `Your estimated shipment cost will be between £${fieldinput.value * 6} and £${fieldinput.value * 7} if your shipment distance is close to ${fieldinput.value}miles`};
