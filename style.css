@@ -382,7 +382,39 @@ body {
   visibility: visible;
   opacity: 1;
 }
+.contain{
+  border-color: black;
+  border:10px;
+  position: relative;
+  display: block;
+  text-align: center;
+  color: brown;
 
+}
+.miles{
+  border: 5rem;
+  border-radius: 6rem;
+  border-color: rgb(16, 75, 152);
+  box-sizing: content-box;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: larger;
+  
+}
+
+.inputboxer{
+  color: blueviolet;
+  text-align: center;
+  background-color: cadetblue;
+  border-width: 1px;
+  border-color: black ;
+  border-radius: 10px;
+
+}
+.btn{
+  text-align: center;
+  position: relative;
+  font-size: small;
+}
 
 
 
@@ -1281,6 +1313,8 @@ body {
   .hero-title .span { --fs-2: 14rem; }
 
   .hero-text { --fs-7: 2.4rem; }
+
+  .
 
 
 
