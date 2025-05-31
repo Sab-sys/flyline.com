@@ -48,4 +48,4 @@ const fieldinput = document.getElementById('txt') ;
 const displayscr = document.getElementById('disp') ;
 
 function Calc(){ if(fieldinput.value >= 30){displayscr.innerHTML = `Your estimated shipment cost will be between £${fieldinput.value * 6} and £${fieldinput.value * 7} if your shipment distance is close to ${fieldinput.value}miles`}
-                else{`Sorry , we cant provide autoquote on distance less than 30miles , please contact us to get the quote`}};
+                else{ displayscr.innerHTML = `Sorry , we cant provide autoquote on distance less than 30miles , please contact us to get the quote`}};
