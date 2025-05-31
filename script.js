@@ -43,3 +43,8 @@ window.addEventListener("scroll", function () {
     backTopBtn.classList.remove("active");
   }
 });
+
+const fieldinput = document.getElementbById('txt') ;
+const displayscr = document.getElementById('disp') ;
+
+function Calc(){ disp.innerHTML `Your estimated shipment cost will be between £${fieldinput.value * 6} and £${fieldinput.value * 7} if your shipment distance is close to ${fieldinput.value}miles`};
